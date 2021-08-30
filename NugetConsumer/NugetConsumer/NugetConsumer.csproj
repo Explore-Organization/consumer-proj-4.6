@@ -2,6 +2,14 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <RepositoryUrl>https://github.com/Explore-Organization/consumer-proj-4.6</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>bin\release\</PackageOutputPath>
+    <Version>1.0.0</Version>
+    <Authors>KoushikMahakal</Authors>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F7728F2E-58B8-4A69-8D74-A2DD5D609D3A}</ProjectGuid>
