@@ -64,6 +64,9 @@
       <HintPath>..\packages\CefSharp.Wpf.92.0.260\lib\net452\CefSharp.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NugetTestLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NugetTestLibrary.1.0.0\lib\net462\NugetTestLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
